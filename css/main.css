@@ -1,3 +1,64 @@
+/* * Main styles * */
+
+body {
+	background-color: #1f202b;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.full-width {
+	width: 1200px;
+	clear: both;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/* * Header styles * */
+
+header {
+	background-image: url("../img/hero-background.png");
+}
+
+#name,
+.main-nav {
+	color: #fff;
+	font-size: 30px;
+}
+
+
+/* * Portfolio styles * */
+
+#portfolio h2 {
+	font-family: 'Source Code Pro', monospace;
+	color: #f70074;
+	text-align: center;
+}
+
+#portfolio p,
+#portfolio h3 {
+	color: #fff;
+	font-size: 24px;
+}
+
+
+
+/* * About styles * */
+
+#about {
+	background-image: url(../img/about-me.png);
+}
+
+
+
+/* * Contact styles * */
 
 
 
