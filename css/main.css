@@ -66,6 +66,7 @@ header h1 span {
 	font-family: 'Source Code Pro', monospace;
 	color: #f70074;
 	font-size: 36px;
+	font-weight: 600;
 	text-align: center;
 }
 
@@ -111,11 +112,23 @@ header h1 span {
 
 #about {
 	background-image: url(../img/about-me.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
+	height: 550px;
+	width: 1400px;
 }
 
+#about h2 {
+	font-family: 'Source Code Pro', monospace;
+	color: #f70074;
+	font-size: 36px;
+	font-weight: 600;
+	text-align: center;
+	padding: 30px;
+}
 
+#about p {
+	font-size: 24px;
+	margin-left: 100px;
+}
 
 /* * Contact styles * */
 
