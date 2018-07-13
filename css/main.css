@@ -23,16 +23,35 @@ body {
 
 /* * Header styles * */
 
-header .full-width {
+.hero-img{
 	background-image: url("../img/hero-background.png");
-	background-size: 1200px 750px;
-	background-repeat: no-repeat;
-	margin-top: 50px;
+	height: 725px;
+	width: 1400px;
+	margin-top: 75px;
 }
 
-#name {
+.hero-text {
+	text-align: justify;
+	padding-left: 100px;
+	padding-top: 300px;
+}
+
+.hero-text h1 {
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 600;
+	font-size: 72px;
 	color: #fff;
-	font-size: 20px;
+	margin: 0;
+}
+
+.hero-text span {
+	color: #f70074;
+}
+
+#name h2{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 400;
 }
 
 .main-nav ul {
@@ -47,16 +66,6 @@ header .full-width {
 .main-nav li a {
 	text-decoration: none;
 	color: #fff;
-}
-
-header h1 {
-	font-family: 'Source Code Pro', monospace;
-	font-size: 50px;
-	color: #fff;
-}
-
-header h1 span {
-	color: #f70074;
 }
 
 
@@ -111,8 +120,7 @@ header h1 span {
 
 #about {
 	background-image: url(../img/about-me.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
+	
 }
 
 
