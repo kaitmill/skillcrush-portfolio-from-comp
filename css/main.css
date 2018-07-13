@@ -6,7 +6,7 @@ body {
 }
 
 .full-width {
-	width: 1200px;
+	width: 1400px;
 	clear: both;
 }
 
@@ -75,21 +75,37 @@ header h1 span {
 	font-size: 24px;
 }
 
+.portfolio-img-left {
+	display: inline-block;
+	width: 550px;
+	height: 350px;
+	margin: 50px 50px 50px 100px;
+}
+
+.portfolio-img-right {
+	display: inline-block;
+	width: 550px;
+	height: 350px;
+	margin: 50px 100px 50px 50px;
+}
+
+.portfolio-text-left {
+	display: inline-block;
+	width: 550px;
+	height: 350px;
+	margin: 50px 50px 50px 100px;
+}
+
+.portfolio-text-right {
+	display: inline-block;
+	width: 550px;
+	height: 350px;
+	margin: 50px 100px 50px 50px;
+}
 
 #portfolio h3 {
 	margin-top: 0;
 }
-
-.portfolio-img {
-	width: 500px;
-	height: 300px;
-	margin: 0 50px 50px;
-}
-
-.portfolio-text {
-	margin: 0 50px 50px 50px;
-}
-
 
 /* * About styles * */
 
