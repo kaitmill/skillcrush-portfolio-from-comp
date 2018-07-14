@@ -23,41 +23,55 @@ body {
 
 /* * Header styles * */
 
-header .full-width {
-	background-image: url("../img/hero-background.png");
-	background-size: 1200px 750px;
-	background-repeat: no-repeat;
-	margin-top: 50px;
-}
-
-#name {
+#name h2{
 	color: #fff;
-	font-size: 20px;
+	font-size: 30px;
+	font-weight: 400;
+	margin-left: 40px;
 }
 
 .main-nav ul {
 	list-style-type: none;
+	margin-right: 35px;
 }
 
 .main-nav li {
-	padding: 20px;
 	float: left;
 }
 
 .main-nav li a {
 	text-decoration: none;
 	color: #fff;
+	font-size: 30px;
+	padding-left: 20px;
 }
 
-header h1 {
+.hero-img{
+	background-image: url("../img/hero-background.png");
+	height: 725px;
+	width: 1400px;
+	margin-top: 50px;
+}
+
+.hero-text {
+	text-align: justify;
+	padding-left: 100px;
+	padding-top: 300px;
+}
+
+.hero-text h1 {
 	font-family: 'Source Code Pro', monospace;
-	font-size: 50px;
+	font-weight: 600;
+	font-size: 72px;
 	color: #fff;
+	margin: 0;
 }
 
-header h1 span {
+.hero-text span {
 	color: #f70074;
 }
+
+
 
 
 /* * Portfolio styles * */
