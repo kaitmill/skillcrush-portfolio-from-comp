@@ -145,12 +145,16 @@ body {
 
 /* * Contact styles * */
 
+#contact {
+	height: 450px;
+	text-align: center;
+}
+
 #contact h2 {
 	font-family: 'Source Code Pro', monospace;
 	color: #f70074;
 	font-size: 36px;
 	font-weight: 600;
-	text-align: center;
 	padding: 30px;
 }
 
@@ -158,29 +162,22 @@ body {
 #contact p {
 	font-size: 24px;
 	color: #fff;
-	text-align: center;
 }
 
 #contact a {
 	color: #fff;
 	text-decoration: none;
+	margin-right: 25px;
 }
 
-.social {
-	margin-left: 125px;
-}
-
-.social img {
-	padding-right: 25px;
-}
-
-.copyright p {
-	margin-top: 120px;
+#contact .copyright p {
+	padding-top: 100px;
 	font-size: 18px;
 }
 
-
-
+.hire {
+	margin-left: 100px;
+}
 
 
 
