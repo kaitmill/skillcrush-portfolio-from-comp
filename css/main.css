@@ -15,7 +15,6 @@ body {
 	float: left;
 }
 
-
 .third-width {
 	width: 400px;
 	float: left;
@@ -30,13 +29,15 @@ body {
 	margin-left: 40px;
 }
 
-.main-nav ul {
-	list-style-type: none;
-	margin-right: 35px;
+.half-width-right {
+	width: 600px;
+	float: right;
+	padding-right: 25px;
 }
 
-.main-nav li {
-	float: left;
+.main-nav ul {
+	list-style-type: none;
+	padding-left: 200px;
 }
 
 .main-nav li a {
@@ -44,6 +45,7 @@ body {
 	color: #fff;
 	font-size: 30px;
 	padding-left: 20px;
+	float: left;
 }
 
 .hero-img{
